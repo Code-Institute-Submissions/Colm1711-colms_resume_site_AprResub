@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is my Portfolio website where you can see some of my work so far, skills, download my resume and get in touch!">
+    <meta name="description"
+        content="This is my Portfolio website where you can see some of my work so far, skills, download my resume and get in touch!">
     <meta name="keywords" content="Colm, O'Sullivan, Portfolio, web developer, HTML, CSS, Cork, Ireland, contact">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Colm's resume</title>
 </head>
+
 <body>
     <header>
         <!--Header. Navigation links so user can easily navigate to each section of the site. Anchors to each section and links to 
         homepage and contact form page-->
-        <a href="/index.html"><h1 id="logo">Colm's Resum&eacute;</h1></a>
+        <a href="/index.html">
+            <h1 id="logo">Colm's Resum&eacute;</h1>
+        </a>
         <nav class="menu">
             <ul>
                 <li>
@@ -38,7 +43,39 @@
         Contact Form
     </section>
     <footer>
-        Social Media
+        <!--Footer links to social medias and copyright information. I have bug with email where it is not displaying correct 
+            default informaiton. Need to test on smaller devices without email client-->
+        <div>
+            <ul class="social-icons">
+                <li>
+                    <a href="https://www.facebook.com/" rel="noopner" target="_blank"
+                        aria-label="visit my facebook profile (opens in a new tab)">
+                        <i class="fa-brands fa-facebook-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" rel="noopner" target="_blank"
+                        aria-label="visit my instagram profile(opens in a new tab)">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:colmsresume@example.com?subject=re:myresumesite&body=" rel="noopner" target="_blank"
+                        aria-label="send me an email (opens in a new tab)">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/" rel="noopner" target="_blank"
+                        aria-label="visit my twitter account (opens in a new tab)">
+                        <i class="fa-brands fa-twitter-square"></i>
+                    </a>
+                </li>
+            </ul>
+            <small class="copyright">Colm O'Sullivan 2022&copy;</small>
+        </div>
     </footer>
+    <script src="https://kit.fontawesome.com/35fe0ba271.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
