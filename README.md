@@ -63,9 +63,9 @@ This is the main website of Colm's resume website is for users to see details ab
 
 ## Testing
 
+- Need to test email client link on small device to see if it will trigger email client.
 
-
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+- The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 
 
@@ -90,7 +90,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
-
+- There is a danger if user doesn't have email client installed on there device this won't work. Need to test this on other devices.
 
 ## Deployment
 
@@ -101,6 +101,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Code
 
 -   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+
+-   code for e accent came from Penn State HTML - Special Entity Codes [Pennstate](http://lilith.fisica.ufmg.br/~wag/TRANSF/codehtml.html)
+
+-   [Tutorialspoint](https://www.tutorialspoint.com/html/html_email_links.htm) : For code on how to trigger users email to send email if link is clicked on it will trigger email client on users device(Lotus Note, Outlook etc.). There is a danger if user doesn't have email client installed on there device this won't work. Need to test this on other devices.
+
 
 ### Content
 
