@@ -1,6 +1,7 @@
 /* variables */
 :root{
   --primary: #E4E9FF;
+  --secondary: #001e62;
   --test:gold;
 }
 
@@ -66,9 +67,21 @@ a:hover{
   background: none;
   color: var(--test);
   padding: 6px 12px;
-  border-radius: 20px;
+  border-radius: 18px;
   text-transform: uppercase;
   display: inline-block;
+}
+
+.button:hover{
+  color: var(--primary);
+  background: var(--secondary);
+}
+
+input, input[type="text"], textarea{
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px 16px;
+  border-radius: 18px;
+  border: 1px solid var(--test);
 }
 
 /*Default CSS layout for narrow screens*/
