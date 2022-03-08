@@ -31,6 +31,12 @@ img{
 
 /*Fonts*/
 
+@font-face{
+
+    font-family: 'DMSans';
+    src: url(/assets/fonts/DMSans-Bold.ttf)
+ 
+}
 
 /*Constants*/
 
@@ -38,7 +44,8 @@ img{
 color is set to primary*/
 body{
   background-image: url(/assets/images/blue.jpg);
-  color: var(--primary)
+  color: var(--primary);
+  font-family: 'DMSans';
 }
 
 p,a,li,i{
