@@ -113,9 +113,11 @@ This is the main website of Colm's resume website is for users to see details ab
 
 -   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
-- Photos: Software Testing, Bartender and Banker for Experience. Secondary and College All were sourced from [here](https://www.pexels.com/) 
+-   Photos: Software Testing, Bartender and Banker for Experience. Secondary and College All were sourced from [here](https://www.pexels.com/) 
 
-- Content was sourced from [here] (https://www.w3schools.com/)
+-   Content was sourced from [here] (https://www.w3schools.com/)
+
+-   Backgorund image for website was sourced from [here](https://www.freepik.com/free-vector/midnight-blue-elegant-watercolor-background_9218023.htm#query=minimal%20background&position=11&from_view=search)
 
 ### Media
 
