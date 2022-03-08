@@ -44,7 +44,7 @@
         <form action="/index.html" method="post" autocomplete="on">
             <fieldset>
                 <legend>Your Details:</legend>
-                <label for="fname">Enter your first name:</label>
+                <label for="fname" >Enter your first name:</label>
                 <input type="text" id="fname" name="fname" required autofocus><br>
                 <label for="lname">Enter your last name:</label>
                 <input type="text" id="lname" name="lname" required><br>
@@ -53,10 +53,10 @@
                 <label for="webpage">If appicable put your website url here:</label>
                 <input type="url" id="webpage" name="webpage" novalidate><br>
                 <label for="files">Upload files:</label>
-                <input type="file" id="files" name="files" multiple><br>
+                <input class="button_noborder" type="file" id="files" name="files" multiple><br>
                 <textarea name="message" id="" cols="30" rows="10" placeholder="Leave your message here" required></textarea><br>
-                <input type="submit" formtarget="_blank" value="Submit"><br>
-                <input type="reset">
+                <input class="button" type="submit" formtarget="_blank" value="Submit"><br>
+                <input class="button" type="reset">
             </fieldset>
           </form>
     </section>
