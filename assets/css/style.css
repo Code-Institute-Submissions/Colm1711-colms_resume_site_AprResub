@@ -1,5 +1,7 @@
 /* variables */
-
+:root{
+  --primary: #E4E9FF;
+}
 
 /* resets */
 
@@ -20,12 +22,34 @@ a:hover{
     text-decoration: underline;
 }
 
+img{
+  max-height: 100%;
+  max-width: 100%;
+}
+
 /*Fonts*/
 
 
+/*Constants*/
+
+body{
+  background-image: url(/assets/images/blue.jpg);
+  color: var(--primary)
+}
+
+p,a,li,i{
+  color: var(--primary);
+}
+
+a:hover{
+  color:gold;
+}
+
+.social-icons li i:hover{
+    color:gold;
+  }
+
 /*Default CSS layout for narrow screens*/
-
-
 
 @media (min-width: 620px) {
     /*CSS for medium width screens*/
