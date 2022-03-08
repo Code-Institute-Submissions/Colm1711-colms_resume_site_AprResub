@@ -1,6 +1,7 @@
 /* variables */
 :root{
   --primary: #E4E9FF;
+  --test:gold;
 }
 
 /* resets */
@@ -14,7 +15,7 @@ li {
     list-style-type: none;
 }
 
-a{
+body,p,a,ul,li{
     text-decoration: none;
 }
 
@@ -32,6 +33,8 @@ img{
 
 /*Constants*/
 
+/*body is using an image bg that was sourced from freepik.com.
+color is set to primary*/
 body{
   background-image: url(/assets/images/blue.jpg);
   color: var(--primary)
@@ -42,12 +45,31 @@ p,a,li,i{
 }
 
 a:hover{
-  color:gold;
+  color:var(--test);
 }
 
 .social-icons li i:hover{
-    color:gold;
+    color:var(--test);
   }
+
+.button{
+  background: none;
+  color: var(--test);
+  border: 2px solid var(--test);
+  padding: 6px 12px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.button_noborder{
+  background: none;
+  color: var(--test);
+  padding: 6px 12px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+}
 
 /*Default CSS layout for narrow screens*/
 
