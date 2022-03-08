@@ -111,6 +111,15 @@ li > i{
   background: var(--secondary);
 }
 
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.social-icons{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
 
 #logo{
   color:var(--primary);
