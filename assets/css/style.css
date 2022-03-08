@@ -40,20 +40,47 @@ img{
 
 /*Constants*/
 
-/*body is using an image bg that was sourced from freepik.com.
-color is set to primary*/
+/*body is using an image bg that was sourced from freepik.com color is set to primary
+I have updated back ground color for now. Not happy with shade of blue in image*/
 body{
-  background-image: url(/assets/images/blue.jpg);
+  background-color: #0a0f5f;
   color: var(--primary);
   font-family: 'DMSans';
 }
 
 p,a,li,i{
-  color: var(--primary);
+  color: #CF9FFF;
 }
 
 a:hover{
   color:var(--test);
+}
+
+input, input[type="text"], textarea{
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px 16px;
+  border-radius: 18px;
+  border: 1px solid var(--test);
+}
+
+h1,h3{
+  font-size:1.2em;
+}
+
+h2{
+  font-size:1.6em;
+}
+
+h4{
+  font-size:1.1em;
+}
+
+li > i{
+  font-size: 4em;
+}
+
+.menu{
+  display: none;
 }
 
 .social-icons li i:hover{
@@ -84,11 +111,9 @@ a:hover{
   background: var(--secondary);
 }
 
-input, input[type="text"], textarea{
-  background: rgba(255, 255, 255, 0.05);
-  padding: 10px 16px;
-  border-radius: 18px;
-  border: 1px solid var(--test);
+
+#logo{
+  color:var(--primary);
 }
 
 /*Default CSS layout for narrow screens*/
@@ -99,8 +124,14 @@ input, input[type="text"], textarea{
   
   @media (min-width: 960px) {
     /*CSS for wide screens*/
+    body{
+      font-size:18px;
+    }
   }
   
   @media (min-width: 1200px) {
     /*CSS for really wide screens*/
+    body{
+      font-size: 20px;
+    }
   }
