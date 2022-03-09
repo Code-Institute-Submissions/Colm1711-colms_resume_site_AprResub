@@ -113,6 +113,10 @@ li > i{
   background: var(--secondary);
 }
 
+.about_button{
+  text-align: center;
+} 
+
 .grid{
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -157,7 +161,22 @@ li > i{
   font-size: 5em;
 }
 
+.skills{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
+.skills li i{
+  font-size: 7em;
+}
+
+.skills li h4{
+  text-align: center;
+}
 
 /*Default CSS layout for narrow screens*/
 
