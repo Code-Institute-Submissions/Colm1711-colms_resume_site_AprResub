@@ -96,6 +96,7 @@ li > i{
   border-radius: 20px;
   text-transform: uppercase;
   display: inline-block;
+  margin: 10px;
 }
 
 .button_noborder{
@@ -134,6 +135,14 @@ li > i{
   padding: 10px 0;
 }
 
+.about_me_button{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 10px;
+}
+
 
 /*ID's*/
 #home{
@@ -147,6 +156,8 @@ li > i{
 #intro h3{
   font-size: 5em;
 }
+
+
 
 /*Default CSS layout for narrow screens*/
 
