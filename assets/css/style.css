@@ -146,6 +146,22 @@ li > i{
   align-content: center;
   padding: 10px;
 }
+.social-icons{
+  padding: 10px;
+}
+
+.social-icons li{
+text-align: center;
+font-size: 2em;
+}
+
+.button-top{
+  position: fixed;
+  right: 0.5rem;
+  bottom: 2rem;
+  font-size: 2em;
+  display: none;
+}
 
 
 /*ID's*/
@@ -154,7 +170,7 @@ li > i{
   padding: 0 0 10px 0;
 }
 #intro{
-  margin: auto;
+  margin: 15px;
 }
 
 #intro h3{
