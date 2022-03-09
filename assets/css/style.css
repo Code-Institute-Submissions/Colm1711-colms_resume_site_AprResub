@@ -125,11 +125,14 @@ li > i{
 .logo{
   grid-column: 1/3;
   color:var(--primary);
+  border-bottom: 2px solid var(--test);
+  padding-bottom: 2px;
 }
 
 /*ID's*/
 #home{
-  margin: 0 1px;
+  margin: 0 15px;
+  padding: 0 0 10px 0;
 }
 
 /*Default CSS layout for narrow screens*/
