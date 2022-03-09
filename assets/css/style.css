@@ -48,7 +48,7 @@ body{
   font-family: 'DMSans';
 }
 
-p,a,li,i{
+p,a,i,h4{
   color: #CF9FFF;
 }
 
@@ -166,6 +166,10 @@ li > i{
   padding: 10px 4px;
 }
 
+.passions li{
+  font-size: 0.8em;
+}
+
 .about_me_button{
   display: flex;
   flex-direction: column;
@@ -173,6 +177,24 @@ li > i{
   align-content: center;
   padding: 10px;
 }
+
+#resume .grid div{
+  padding:5px;
+  grid-column: 1/4;
+  display: flex;
+}
+
+#resume .grid div *{
+  max-width: 40%;
+  align-self: center;
+  margin: 0 10px;
+}
+
+#resume .grid div h4{
+  color: ;
+}
+
+
 .social-icons{
   padding: 10px;
 }
@@ -204,8 +226,12 @@ font-size: 2em;
   font-size: 5em;
 }
 
-.experience{
+#resume{
+  padding-bottom: 15px;
+}
 
+#resume h2{
+  padding: 15px 10px;
 }
 
 /*Default CSS layout for narrow screens*/
