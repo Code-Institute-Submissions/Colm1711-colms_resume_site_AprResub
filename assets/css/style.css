@@ -129,10 +129,23 @@ li > i{
   padding-bottom: 2px;
 }
 
+.passions{
+  text-align: center;
+  padding: 10px 0;
+}
+
+
 /*ID's*/
 #home{
   margin: 0 15px;
   padding: 0 0 10px 0;
+}
+#intro{
+  margin: auto;
+}
+
+#intro h3{
+  font-size: 5em;
 }
 
 /*Default CSS layout for narrow screens*/
