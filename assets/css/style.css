@@ -79,6 +79,11 @@ li > i{
   font-size: 4em;
 }
 
+footer {
+  padding: 10px 0;
+
+}
+
 /*CLASSES*/
 .menu{
   display: none;
@@ -201,7 +206,7 @@ font-size: 2em;
 .copyright{
   text-align: center;
   display: block;
-  font-style: italic
+  font-style: italic;
 }
 
 .button-top{
@@ -265,6 +270,9 @@ font-size: 2em;
   font-style: italic;
 }
 
+#contact_form {
+  padding-bottom: 175px;
+}
 
 /*Default CSS layout for narrow screens*/
 
