@@ -175,7 +175,7 @@ li > i{
 
 .passions{
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 25px 10px 0;
 }
 
 .passions li{
@@ -240,6 +240,26 @@ font-size: 2em;
   align-self: center;
   margin: 0 10px;
 }
+
+#love_running{
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+#love_running h2{
+  padding-bottom: 10px;
+}
+
+#love_running img{
+  border: 2px solid var(--test);
+  max-width: 99%;
+}
+
+#love_running h4{
+  text-align: center;
+  font-style: italic;
+}
+
 
 /*Default CSS layout for narrow screens*/
 
