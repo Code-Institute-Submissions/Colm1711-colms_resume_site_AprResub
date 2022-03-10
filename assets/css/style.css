@@ -187,8 +187,10 @@ li > i{
 
 .social-icons{
   padding: 10px;
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
 }
 
 .social-icons li{
