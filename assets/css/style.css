@@ -161,11 +161,6 @@ li > i{
   border-radius: 50%;
 }
 
-.social-icons{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-}
-
 .logo{
   grid-column: 1/3;
   color:var(--primary);
@@ -192,11 +187,19 @@ li > i{
 
 .social-icons{
   padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
 }
 
 .social-icons li{
 text-align: center;
 font-size: 2em;
+}
+
+.copyright{
+  text-align: center;
+  display: block;
+  font-style: italic
 }
 
 .button-top{
