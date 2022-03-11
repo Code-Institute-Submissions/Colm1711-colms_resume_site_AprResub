@@ -301,20 +301,58 @@ width: auto;
 
 /*Default CSS layout for narrow screens*/
 
-@media (min-width: 620px) {
+@media (min-width: 600px) {
     /*CSS for medium width screens*/
+    body{
+      font-size:20px;
+    }
+
+   .about_button {
+      text-align: center;
+      font-size: 0.7em;
+      padding: 5px 0;
+    }
+
+    .menu{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: flex-end;
+    }
+
+    .passions {
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    #resume .grid div{
+      grid-column: span 3;
+    }
+    
+    .skills{
+      padding-top: 10%;
+    }
+
+    #love_running{
+      padding-bottom: 25px 0;
+    }
+
+    #love_running img {
+      margin: 4% 0;
+
   }
-  
+
+}
   @media (min-width: 960px) {
     /*CSS for wide screens*/
     body{
-      font-size:18px;
+      font-size:30px;
     }
   }
   
   @media (min-width: 1200px) {
     /*CSS for really wide screens*/
     body{
-      font-size: 20px;
+      
     }
   }
