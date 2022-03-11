@@ -35,7 +35,7 @@ video{
 
 @font-face{
 
-    font-family: 'DMSans';
+    font-family: "DMSans";
     src: url(/assets/fonts/DMSans-Bold.ttf)
  
 }
@@ -47,7 +47,7 @@ I have updated back ground color for now. Not happy with shade of blue in image*
 body{
   background-color: #0a0f5f;
   color: var(--primary);
-  font-family: 'DMSans';
+  font-family: "DMSans", Helvetica, sans-serif;
 }
 
 p,a,i,h4{
