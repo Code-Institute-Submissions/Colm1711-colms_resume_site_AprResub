@@ -40,6 +40,8 @@ video{
  
 }
 
+/*Default CSS layout for narrow screens*/
+
 /*Constants*/
 
 /*body is using an image bg that was sourced from freepik.com color is set to primary
@@ -299,10 +301,10 @@ width: auto;
   width: auto;
 }
 
-/*Default CSS layout for narrow screens*/
 
-@media (min-width: 600px) {
-    /*CSS for medium width screens*/
+
+@media (min-width: 481px) {
+    /*CSS for tablet width screens*/
     body{
       font-size:20px;
     }
@@ -342,17 +344,66 @@ width: auto;
 
   }
 
+    .button-top{
+      display: block;
+    }
+
 }
-  @media (min-width: 960px) {
+  @media (min-width: 769px) {
+    /*CSS for medium to wide screens*/
+    body{
+      font-size: 25px;
+      margin: 1% 5%;
+    }
+
+    #resume{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin: 5% 0;
+    }
+    
+    #resume div {
+      display: flex;
+      flex-direction: column;
+      padding-top: 5%;
+  }
+
+    #resume .grid div * {
+      max-width: 50%;
+      margin: 0 10px;
+      padding: 0.4%;
+  }
+ 
+
+    .skills li i{
+      font-size: 9em;
+    }
+
+    .button-top{
+      display: block;
+    }
+    	
+    #projects{
+      padding-top:5%;
+      }
+    
+
+    #love_running img {
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      padding: 3px;
+      width: 90%;
+  }
+
+  @media (min-width: 992px) {
     /*CSS for wide screens*/
-    body{
-      font-size:30px;
-    }
+      body{
+        font-size: 48px;
+      }
+
+      .passions {
+        padding: 40px 10px;
+      }
   }
-  
-  @media (min-width: 1200px) {
-    /*CSS for really wide screens*/
-    body{
-      
-    }
-  }
+}
