@@ -58,6 +58,11 @@ a:hover{
   color:var(--test);
 }
 
+video{
+  border-radius: 2%;
+  max-width: 67%;
+}
+
 input, input[type="text"], textarea{
   background:rgba(255, 255, 255, 0.05);
   padding: 10px 16px;
@@ -90,6 +95,11 @@ footer {
 .menu{
   display: none;
 }
+
+.mynameis{
+  color: #08a6e6;
+}
+
 
 .social-icons li i:hover{
     color:var(--test);
