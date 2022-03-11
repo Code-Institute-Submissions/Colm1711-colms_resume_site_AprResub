@@ -120,6 +120,9 @@ This is the main website of Colm's resume website is for users to see details ab
 -   Backgorund image for website was sourced from [here](https://www.freepik.com/free-vector/midnight-blue-elegant-watercolor-background_9218023.htm#query=minimal%20background&position=11&from_view=search)
 
 -   Solution to targeting items nested in grid nth child w3schools [here] (https://www.w3schools.com/cssref/sel_nth-child.asp)
+
+-   Video converted from GIF sourved from pintreset[here] (https://in.pinterest.com/pin/478718635381885610/)
+
 ### Media
 
 -   All Images 
