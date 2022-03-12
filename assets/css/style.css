@@ -433,7 +433,6 @@ width: auto;
     /*CSS for wide screens*/
       body{
         font-size: 28px;
-        overflow: scroll;
         scroll-behavior: smooth;
       }
 
