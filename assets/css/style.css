@@ -289,7 +289,11 @@ footer {
 
 #love_running img{
   border: 2px solid var(--test);
-  max-width: 99%;
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 3px;
 }
 
 #love_running h4{
@@ -354,12 +358,6 @@ width: auto;
       padding-bottom: 25px 0;
     }
 
-    #love_running img {
-      margin: 4% 0;
-
-  }
-
-
 }
   @media (min-width: 768px) {
     /*CSS for medium to wide screens*/
@@ -402,15 +400,6 @@ width: auto;
     #projects{
       padding-top:5%;
       }
-    
-
-    #love_running img {
-      margin: auto;
-      display: flex;
-      justify-content: center;
-      padding: 3px;
-      width: 90%;
-  }
 
   #contact_form{
     margin: 10px;
