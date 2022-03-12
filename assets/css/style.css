@@ -451,3 +451,10 @@ width: auto;
       }
     }
   }
+
+  @media screen and (min-width: 2560px) {
+    body {
+        font-size: 42px;
+    }
+
+    }
