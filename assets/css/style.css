@@ -8,9 +8,8 @@
 /* resets */
 
 *{
-    margin:0;
-    padding:0;
-    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
     scroll-behavior: smooth;
 }
 
@@ -97,6 +96,10 @@ footer {
 
 /*CLASSES*/
 .menu{
+  display: none;
+}
+
+.button-top {
   display: none;
 }
 
@@ -356,9 +359,6 @@ width: auto;
 
   }
 
-    .button-top{
-      display: block;
-    }
 
 }
   @media (min-width: 768px) {
@@ -392,7 +392,11 @@ width: auto;
     }
 
     .button-top{
-      display: block;
+      display: inline-block;
+      position: fixed;
+      bottom: 40px;
+      right: 18px;
+      font-size: 1.4em;
     }
     	
     #projects{
@@ -429,6 +433,7 @@ width: auto;
     margin: 2em 1em 2em 12em;}
 
   }
+
   @media (min-width: 992px) {
     /*CSS for wide screens*/
       body{
