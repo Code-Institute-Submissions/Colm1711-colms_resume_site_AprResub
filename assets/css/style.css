@@ -1,8 +1,10 @@
 /* variables */
 :root{
+  --bg_color: #0a0f5f;
   --primary: #E4E9FF;
   --secondary: #001e62;
-  --test:gold;
+  --text: #CF9FFF;
+  --style:gold;
 }
 
 /* resets */
@@ -48,17 +50,17 @@ video{
 /*body is using an image bg that was sourced from freepik.com color is set to primary
 I have updated back ground color for now. Not happy with shade of blue in image*/
 body{
-  background-color: #0a0f5f;
+  background-color: var(--bg_color);
   color: var(--primary);
   font-family: "DMSans", Helvetica, sans-serif;
 }
 
 p,a,i,h4{
-  color: #CF9FFF;
+  color: var(--text);
 }
 
 a:hover{
-  color:var(--test);
+  color:var(--border);
 }
 
 video{
@@ -70,7 +72,7 @@ input, input[type="text"], textarea{
   background:rgba(255, 255, 255, 0.05);
   padding: 10px 16px;
   border-radius: 18px;
-  border: 1px solid var(--test);
+  border: 1px solid var(--border);
 }
 
 h1,h3{
@@ -109,13 +111,13 @@ footer {
 
 
 .social-icons li i:hover{
-    color:var(--test);
+    color:var(--style);
   }
 
 .button{
   background: none;
-  color: var(--test);
-  border: 2px solid var(--test);
+  color: var(--style);
+  border: 2px solid var(--style);
   padding: 6px 12px;
   border-radius: 20px;
   text-transform: uppercase;
@@ -125,7 +127,7 @@ footer {
 
 .button_noborder{
   background: none;
-  color: var(--test);
+  color: var(--style);
   padding: 6px 12px;
   border-radius: 18px;
   text-transform: uppercase;
@@ -188,7 +190,7 @@ footer {
 .logo{
   grid-column: 1/3;
   color:var(--primary);
-  border-bottom: 2px solid var(--test);
+  border-bottom: 2px solid var(--style);
   padding-bottom: 2px;
 }
 
@@ -262,7 +264,7 @@ footer {
 /*skill progress bar css styling on resume page*/
 #skillprogress {
   width: 60%;
-  border: 1px solid var(--test);
+  border: 1px solid var(--style);
   position: relative;
   display: inline-block;
 }
@@ -288,7 +290,7 @@ footer {
 }
 
 #love_running img{
-  border: 2px solid var(--test);
+  border: 2px solid var(--style);
   max-width: 90%;
   margin: auto;
   display: flex;
@@ -400,6 +402,7 @@ width: auto;
     #projects{
       padding-top:5%;
       }
+
 
   #contact_form{
     margin: 10px;
