@@ -1,10 +1,10 @@
 <h1 align="center">Colm's Resume Website</h1>
 
-[View the live project here.](https://)
+[View the live project here.](https://colm1711.github.io/colms_resume_site)
 
 This is the main website of Colm's resume website is for users to see details about me & Colm's current resume, my skills, to download resume & to get in touch for an interview or a job opportunity. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential employers.
 
-<h2 align="center"><img src="placeholder until I have images of site on various devices"></h2>
+<h2 align="center"><img src="/assets/images/responsive.JPG"></h2>
 
 ## User Experience (UX)
 
@@ -119,11 +119,13 @@ This is the main website of Colm's resume website is for users to see details ab
 
 -   Backgorund image for website was sourced from [here](https://www.freepik.com/free-vector/midnight-blue-elegant-watercolor-background_9218023.htm#query=minimal%20background&position=11&from_view=search)
 
--   Solution to targeting items nested in grid nth child w3schools [here] (https://www.w3schools.com/cssref/sel_nth-child.asp)
+-   Solution to targeting items nested in grid nth child w3schools [here](https://www.w3schools.com/cssref/sel_nth-child.asp)
 
--   Video converted from GIF sourved from pintreset[here] (https://in.pinterest.com/pin/478718635381885610/)
+-   Video converted from GIF sourved from pintreset[here](https://in.pinterest.com/pin/478718635381885610/)
 
--   Scroll behaviour was sourced from[here] (https://css-tricks.com/almanac/properties/s/scroll-behavior/)
+-   Scroll behaviour was sourced from[here](https://css-tricks.com/almanac/properties/s/scroll-behavior/)
+
+-   Picture resizing and reformatting was done [here](https://ezgif.com/jpg-to-webp/ezgif-1-43ca00fdad.jpg)
 
 ### Media
 
