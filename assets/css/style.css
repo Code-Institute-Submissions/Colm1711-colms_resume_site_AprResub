@@ -299,6 +299,8 @@ width: auto;
 
 #contact_form .formbutton{
   width: auto;
+  display: inline-block;
+  margin: 1em 1em 1em 7em
 }
 
 
@@ -349,7 +351,7 @@ width: auto;
     }
 
 }
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     /*CSS for medium to wide screens*/
     body{
       font-size: 25px;
@@ -396,10 +398,33 @@ width: auto;
       width: 90%;
   }
 
+  #contact_form{
+    margin: 10px;
+  }
+
+  input, input[type="text"], textarea {
+    padding: 15px 30px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+
+  textarea{
+    box-sizing: border-box;
+    width: 60%;
+  }
+  
+  #contact_form .formbutton {
+    width: auto;
+    display: inline-block;
+    margin: 2em 1em 2em 12em;}
+
+  }
   @media (min-width: 992px) {
     /*CSS for wide screens*/
       body{
         font-size: 28px;
+        overflow: scroll;
+        scroll-behavior: smooth;
       }
 
       .passions {
@@ -410,4 +435,3 @@ width: auto;
       white-space: nowrap
       }
   }
-}
