@@ -223,14 +223,6 @@ footer {
   font-style: italic;
 }
 
-.button-top{
-  position: fixed;
-  right: 0.5rem;
-  bottom: 2rem;
-  font-size: 2em;
-  display: none;
-}
-
 
 /*ID's*/
 #home{
@@ -264,6 +256,24 @@ footer {
   align-self: center;
   margin: 0 10px;
 }
+/*skill progress bar css styling on resume page*/
+#skillprogress {
+  width: 60%;
+  border: 1px solid var(--test);
+  position: relative;
+  display: inline-block;
+}
+ 
+ #skillpercent {
+  position: absolute;   
+  left: 50%;
+ }
+ 
+ #skillbar {
+  height: 1.4em;
+  background-color: green;
+  width: 33%;
+ }
 
 #love_running{
   padding-top: 10px;
