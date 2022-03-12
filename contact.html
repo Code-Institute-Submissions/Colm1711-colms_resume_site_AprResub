@@ -17,7 +17,7 @@
         <!--Header section. Navigation links so user can easily navigate to each section of the site. Anchors to each section and links to 
         homepage and contact form page-->
         <a class="logo" href="index.html">
-            <h1>Colm's Resum&eacute;</h1>
+            <h1 id="logo_line">Colm's Resum&eacute;</h1>
         </a>
         <nav class="menu">
             <ul>
@@ -55,8 +55,10 @@
                 <label for="files">Upload files:</label>
                 <input class="button_noborder files" type="file" id="files" name="files" multiple><br>
                 <textarea name="message" cols="30" rows="10" placeholder="Leave your message here" required></textarea><br>
-                <input class="button formbutton" type="submit" formtarget="_blank" value="Submit">
-                <input class="button formbutton" type="reset">
+                <div id="form_button_pos">
+                    <input class="button formbutton" type="submit" formtarget="_blank" value="Submit">
+                    <input class="button formbutton" type="reset">
+                </div>
             </fieldset>
           </form>
     </section>
