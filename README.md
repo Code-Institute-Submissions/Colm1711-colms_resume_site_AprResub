@@ -123,6 +123,8 @@ This is the main website of Colm's resume website is for users to see details ab
 
 -   Video converted from GIF sourved from pintreset[here] (https://in.pinterest.com/pin/478718635381885610/)
 
+-   Scroll behaviour was sourced from[here] (https://css-tricks.com/almanac/properties/s/scroll-behavior/)
+
 ### Media
 
 -   All Images 
