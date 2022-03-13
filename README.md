@@ -2,9 +2,9 @@
 
 [View the live project here.](https://colm1711.github.io/colms_resume_site)
 
-This is the main website of Colm's resume website is for users to see details about me & Colm's current resume, my skills, to download resume & to get in touch for an interview or a job opportunity. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential employers.
+This is the main website of Colm's resume website is for users to see details about me & my current resume, skills & to get in touch for an interview or a job opportunity. It is designed to be responsive and accessible on a wide range of devices, making it easy to navigate for potential employers. This is a platform for users to check my code, get to know more about me, which technologies I'm using or studying, contact me and follow me on social media and hopefully hire me!
 
-<h2 align="center"><img src="/assets/images/responsive.JPG"></h2>
+<img src="https://raw.githubusercontent.com/Colm1711/colms_resume_site/main/assets/images/responsive.JPG"></img>
 
 ## User Experience (UX)
 
@@ -12,29 +12,29 @@ This is the main website of Colm's resume website is for users to see details ab
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about Colm and his skills to see if he is a candidate for role.
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about Colm and his current experience to see if he is a candidate for role.
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine  if they are good candidate and fit for company culture.
+        3. As a First Time Visitor, I want to locate his social media with links to see his followings on social media to determine users think of them are they trusted & if they are good candidate and fit for company culture.
 .
 
     -   #### Returning Visitor Goals
 
         1. As a Returning Visitor, I want to find information about his skills.
         2. As a Returning Visitor, I want to find the best way to get in contact information to see if we can reach out for interview.
-        3. As a Returning Visitor, I want to profile picture to know what Colm looks like in advance of interview.
+        3. As a Returning Visitor, I want to about me to know what Colm looks like in advance of interview and see what his interests are.
 
     -   #### Frequent User Goals
         1. As a Frequent User, I want to check to see if there are any newly added skills and if they are improving.
-        2. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to his resume.
-        3. As a Frequent User, I want to check to see if there are any new blog posts.?
+        2. As a Frequent User, I want to contact form so that I can email and notify of job roles, jobs or any major updates.
+
 
 -   ### Design
     -   #### Colour Scheme
-        -   
+        -   was created on [Adobe](https://color.adobe.com/create/color-wheel) and validated [here](https://color.a11y.com/Contrast/)
     -   #### Typography
-        -   
+        -   was sourced from [Google fonts](https://fonts.google.com/)
     -   #### Imagery
-        -   
+        -   was sourced from[pexels](https://pexels.com/)
 
 *   ### Wireframes
 
@@ -59,17 +59,49 @@ This is the main website of Colm's resume website is for users to see details ab
 
 ### Frameworks, Libraries & Programs Used
 
-
+1. [Hover.css:](https://ianlunn.github.io/Hover/)
+    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the ''DMSans-Bod font into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
 
 ## Testing
 
-- Need to test email client link on small device to see if it will trigger email client.
+- Tested email client link on small device to see if it will trigger email client.
 
-- The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+- Tested the W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
+- Tested that this page works in Chrome and Firefox (mobile and desktop versions).
 
+- Tested that this project is responsive on all screen sizes using dev tools.
+
+- Testing with users that the text of all sections is readable and easy to understand.
+
+- Tested that the form validation works, requires entries in every field and the submit button works.
+
+### Validator Testing 
+
+*   **HTML** 
+    - No errors were found when passing throught official W3C Validator.
+
+*   **CSS**
+    - No errors were returned when passing through the Jigsaw.
+  
+*   **Accessibility**
+    - I confirmed that the colours have enough contrast and fonts chosen are easy to read, and all links, icons and images have descriptive text for screen readers running it through Lighthouse in Chrome DevTools.
+
+- **Desktop**
+
+- **Mobile**
 
 ### Testing User Stories from User Experience (UX) Section
+
+
 
 -   #### First Time Visitor Goals
 
@@ -80,6 +112,12 @@ This is the main website of Colm's resume website is for users to see details ab
 
 -   #### Frequent User Goals
 
+### User Experience Feedback
+  * Users got confused when the line below Colm resume extended with menu appearing on screen when going into aspect mode on mobile so moved line to below Colm resume heading.
+
+  * Email input validation was not set up properly on contact form and user could fill in invalid email. Fixed this by adding type email attribute to input.
+
+  * Font on wide screen monitors was deemed to small so added additional media query to CSS for larger screen. Also made adjustents to contact form based on user feedback.
 
 ### Further Testing
 
@@ -88,9 +126,13 @@ This is the main website of Colm's resume website is for users to see details ab
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
+### Solved Bugs
+
+- Email input validation was not set up properly on contact form and user could fill in invalid email. Fixed this by adding type email attribute to input.
+
 ### Known Bugs
 
-- There is a danger if user doesn't have email client installed on there device this won't work. Need to test this on other devices.
+- There are no known bugs.
 
 ## Deployment
 
