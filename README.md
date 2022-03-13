@@ -30,9 +30,16 @@ This is the main website of Colm's resume website is for users to see details ab
 
 -   ### Design
     -   #### Colour Scheme
-        -   was created on [Adobe](https://color.adobe.com/create/color-wheel) and validated [here](https://color.a11y.com/Contrast/)
+        -   was choosen from [colorpyschology.org](https://www.colorpsychology.org/shades-of-blue/) and validated [here](https://color.a11y.com/Contrast/)
+
+        -   color was choosen for these reasons:<br>
+                ![navigation](/assets/images/color.JPG)
+
     -   #### Typography
         -   was sourced from [Google fonts](https://fonts.google.com/)
+
+        -   font was chosen as subset of sans serif that is considered clean, modern and engaging [here](https://fabrikbrands.com/font-psychology-and-typography-inspiration-in-logo-design/#:~:text=Sans%20serif%20font%20psychology,sense%20of%20honesty%20and%20sensibility.)
+        
     -   #### Imagery
         -   was sourced from[pexels](https://pexels.com/)
 
@@ -184,7 +191,7 @@ This is the main website of Colm's resume website is for users to see details ab
 
   * Increased font size for Heading 1 to make main purpose of site more prominent.
 
-  * Added contact form button to end of Projects section.
+  * Added contact form button to end of Projects section after user feedback of more links.
 
 ### Further Testing
 
