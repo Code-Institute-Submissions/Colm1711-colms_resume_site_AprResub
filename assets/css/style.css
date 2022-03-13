@@ -114,9 +114,10 @@ footer {
 .menu #nav_contact_me{
   visibility: visible;
   display: block;
-  position: fixed;
-  top: 0px;
-  right:0px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 1.2em;
 }
 
 .button-top {
