@@ -150,6 +150,7 @@ positioned in top right.*/
 used high specificty*/
 .social-icons li i:hover{
     color:#08a6e6;
+    transform: scale(1.1);
   }
 /*Add styling to buttons*/
 .button{
