@@ -13,66 +13,66 @@
 </head>
 
 <body>
-    <header id="home" class="grid">
+    <header id="home" class="grid"  aria-label="home navigation">
         <!--Header section. Navigation links so user can easily navigate to each section of the site. Anchors to each section and links to 
         homepage and contact form page-->
         <a class="logo" href="index.html">
-            <h1 id="logo_line">Colm's Resum&eacute;</h1>
+            <h1 id="logo_line" aria-label="site_logo">Colm's Resum&eacute;</h1>
         </a>
-        <nav class="menu">
+        <nav class="menu" aria-label="nav-menu">
             <ul>
                 <li>
-                    <a href="index.html#about_me">About Me</a>
+                    <a aria-label="Link to sction with more about me" href="#about_me">About Me</a>
                 </li>
                 <li>
-                    <a href="index.html#resume">Resum&eacute;</a>
+                    <a aria-label="Link to section on my resume" href="#resume">Resum&eacute;</a>
                 </li>
                 <li>
-                    <a href="index.html#skills">Skills</a>
+                    <a aria-label="Link to section on my skills" href="#skills">Skills</a>
                 </li>
                 <li>
-                    <a href="index.html#projects">Projects</a>
+                    <a aria-label="Link to section on my projects" href="#projects">Projects</a>
                 </li>
-                <li>
-                    <a href="contact.html">Contact me</a>
+                <li id="nav_contact_me" aria-label="Link to contact me">
+                    <a aria-labelledby="nac_contact_me" href="contact.html">Contact me</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section id="contact_form">
-        <h2>Contact Form</h2>
-        <form action="https://formdump.codeinstitute.net/" method="POST" autocomplete="on">
+    <section id="contact_form" aria-labelledby="form-heading">
+        <h2 id="form-heading" aria-label="Please fill in your details to this">Contact Form</h2>
+        <form action="https://formdump.codeinstitute.net/" method="POST" autocomplete="on" aria-label="Want to chat with me please fill out details">
             <fieldset>
                 <legend>Your Details:</legend>
                 <label for="fname" >Enter your first name:</label>
-                <input type="text" id="fname" name="fname" required autofocus><br>
+                <input type="text" id="fname" name="fname" autocorrect="off" required autofocus><br>
                 <label for="lname">Enter your last name:</label>
-                <input type="text" id="lname" name="lname" required><br>
+                <input type="text" id="lname" name="lname" autocorrect="off" required><br>
                 <label for="email">Enter your email:</label>
-                <input type="email" id="email" name="email" required><br>
+                <input type="email" id="email" name="email" autocapitalize="off" autocorrect="off" spellcheck="false" required><br>
                 <label for="webpage">Enter url here(optional):</label>
                 <input type="url" id="webpage" name="webpage"><br>
                 <label for="files">Upload files:</label>
                 <input class="button_noborder files" type="file" id="files" name="files" multiple><br>
                 <textarea name="message" cols="30" rows="10" placeholder="Leave your message here" required></textarea><br>
                 <div id="form_button_pos">
-                    <div>
+                    <div id="submit_button">
                         <input class="button formbutton" type="submit" formtarget="_blank" value="Submit">
                     </div>
-                    <div>
+                    <div id="reset_button">
                         <input class="button formbutton" type="reset">
                     </div>    
                 </div>
             </fieldset>
           </form>
     </section>
-    <footer>
+    <footer  aria-label="social links and copyright">
         <!--Footer links to social medias and copyright information. I have bug with email where it is not displaying correct 
             default informaiton. Need to test on smaller devices without email client-->
         <div>
             <ul class="social-icons">
                 <li>
-                     <a href="https://www.facebook.com/" rel="noopner" target="_blank" aria-label="visit my facebook profile (opens in a new tab)">
+                    <a href="https://www.facebook.com/" rel="noopner" target="_blank" aria-label="visit my facebook profile (opens in a new tab)">
                         <i class="fa-brands fa-facebook-square"></i>
                     </a>
                 </li>
@@ -93,10 +93,11 @@
                 </li>
             </ul>
             <div class="button-top">
-                <a href="#top" ><i class="fa-solid fa-circle-arrow-up button_noborder"></i></a>
-            </div>     
+                <a href="#top" ><i class="fa-solid fa-circle-arrow-up button_noborder"></i><p>button to top</p></a>
+            </div>
+            
         </div>
-        <small class="copyright">Colm O'Sullivan 2022&copy;</small>
+        <small class="copyright" aria-label="copyright information">Colm O'Sullivan 2022&copy;</small>
     </footer>
     <script src="https://kit.fontawesome.com/35fe0ba271.js" crossorigin="anonymous"></script>
 </body>
