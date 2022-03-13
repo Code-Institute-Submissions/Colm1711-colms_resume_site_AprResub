@@ -64,6 +64,7 @@ a:hover{
 video{
   border-radius: 2%;
   max-width: 67%;
+  border: 2px var(--text) outset;
 }
 
 input, input[type="text"], textarea{
@@ -94,7 +95,18 @@ footer {
 
 }
 
+
 /*CLASSES*/
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.grid img {
+  border: 2px var(--text) outset;
+}
+
 .menu{
   display: none;
 }
@@ -141,11 +153,6 @@ footer {
   text-align: center;
   font-size: 0.7em;
 } 
-
-.grid{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-}
 
 .skills{
   display: grid;
