@@ -195,11 +195,16 @@ This is the main website of Colm's resume website is for users to see details ab
 
 - contact form buttons were displaying incorrectly in orientation mode. Changed to grid display and placed buttons into columns.
 
+
 ### Known Bugs
 
 - DMSans file is being flagged in Mobile lighthouse score. Added fallback font but is still flagged in report.
 
 - Resume button does not download file, will look to address in next version with script.
+
+- Love running project image is not a link to site. Will update when it goes live will add link.
+
+- Need to move nav menu to bottom on scroll & make more dynamic. Users advised that ehy don't want to scroll back up.
 
 ## Deployment
 
