@@ -108,7 +108,15 @@ footer {
 }
 
 .menu{
-  display: none;
+  visibility: hidden;
+}
+
+.menu #nav_contact_me{
+  visibility: visible;
+  display: block;
+  position: fixed;
+  top: 0px;
+  right:0px;
 }
 
 .button-top {
@@ -355,6 +363,17 @@ width: auto;
     /*CSS for tablet width screens*/
     body{
       font-size:20px;
+    }
+
+    .menu{
+      visibility: visible;
+    }
+
+    .menu #nav_contact_me{
+      display: unset;
+      position: unset;
+      top: unset;
+      right:unset;
     }
 
    .about_button {
