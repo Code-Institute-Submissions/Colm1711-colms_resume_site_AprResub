@@ -13,146 +13,146 @@
 </head>
 
 <body>
-    <header id="home" class="grid">
+    <header id="home" class="grid"  aria-label="home navigation">
         <!--Header section. Navigation links so user can easily navigate to each section of the site. Anchors to each section and links to 
         homepage and contact form page-->
         <a class="logo" href="index.html">
-            <h1 id="logo_line">Colm's Resum&eacute;</h1>
+            <h1 id="logo_line" aria-label="site_logo">Colm's Resum&eacute;</h1>
         </a>
-        <nav class="menu">
+        <nav class="menu" aria-label="nav-menu">
             <ul>
                 <li>
-                    <a href="#about_me">About Me</a>
+                    <a aria-label="Link to sction with more about me" href="#about_me">About Me</a>
                 </li>
                 <li>
-                    <a href="#resume">Resum&eacute;</a>
+                    <a aria-label="Link to section on my resume" href="#resume">Resum&eacute;</a>
                 </li>
                 <li>
-                    <a href="#skills">Skills</a>
+                    <a aria-label="Link to section on my skills" href="#skills">Skills</a>
                 </li>
                 <li>
-                    <a href="#projects">Projects</a>
+                    <a aria-label="Link to section on my projects" href="#projects">Projects</a>
                 </li>
-                <li id="nav_contact_me">
-                    <a href="contact.html">Contact me</a>
+                <li id="nav_contact_me" aria-label="Link to contact me">
+                    <a aria-labelledby="nac_contact_me" href="contact.html">Contact me</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section id="about_me">
+    <section id="about_me"  aria-label="about me">
         <!--About me section to give user intrpoduction and show list of passions. There are links to contact form page to make
             navigation options and links to download copy of CV.-->
-        <div id="intro">
-        <video controls muted loop>
+        <div id="intro" aria-label="Picture of me anime style and intro about me">
+        <video controls muted loop aria-label="profile picture of man with a beard enjoying music">
             <source src="assets/images/profile_v_small.mp4" type="video/mp4"> Your browser does not support this file type
         </video>
-        <h2>Hi There! My Name is</h2>
-        <h3 class="mynameis">Colm</h3>
+        <h2 id="intro-hello-message">Hi There! My Name is</h2>
+        <h3 class="mynameis" id="mynameis">Colm</h3>
         <p>I am currently working in software testing and currently a Web designer in the making!</p><br>
         <p>I look to bring <strong>passion</strong> and <strong>energy</strong> to everything I do</p>
         </div>
-        <ul class="passions grid">
-            <li>
+        <ul class="passions grid" id="passions" aria-label="A list of my passions">
+            <li aria-labelledby="passions">
                 <i class="fa-solid fa-font-awesome"></i>
-                <h4>Web Design</h4>
+                <h4 id="web design">Web Design</h4>
             </li>
-            <li>
+            <li aria-labelledby="passions">
                 <i class="fa-solid fa-code"></i>
-                <h4>Code development</h4> 
+                <h4 id="code development">Code development</h4> 
             </li>
-            <li>
+            <li aria-labelledby="passions">
                 <i class="fa-solid fa-gears"></i>
-                <h4>Software QE testing</h4>
+                <h4 id="quality enginering">Software QE testing</h4>
             </li>
         </ul>
         <div class="about_button">
-            <a class="button" href="contact.html">Want to chat?</a>
+            <a class="button" href="contact.html" aria-label="visit my contact form and send me a message">Want to chat?</a>
         </div>
         <div class="about_button">
-            <a class="button" href="#">Download Resum&eacute;</a>
+            <a class="button" href="#"  aria-label="download a copy of resume of my resume">Download Resum&eacute;</a>
         </div>
     </section>
     <section id="resume">
         <!--Resume section user can see current & past work experience and educaiton. Will display this with images.-->
         
-        <div>
-            <h2>Experience</h2>
+        <div aria-labelledby="experience-title">
+            <h2 id="experience-title">Experience</h2>
             <div class="grid">
-                <div>
+                <div id="software tester" aria-label="current software tester">
                     <img srcset="assets/images/software-qe-480w.jpg 480w,assets/images/software-qe-800w.jpg 800w" sizes="(max-width: 600px) 480px, 800px" src="assets/images/software-qe-800w.jpg" alt="Picture of computer screen">
                     <h4>Software Testing</h4>
                 </div>
-                <div>
+                <div id="bartender" aria-label="former bartender">
                     <img srcset="assets/images/bartender-480w.jpg 480w,assets/images/bartender-680w.jpg 680w" sizes="(max-width: 600px) 480px, 800px" src="assets/images/bartender-680w.jpg" alt="Bartender serving clients">
                     <h4>Bartender</h4> 
                 </div>
-                <div>
+                <div id="Banker" aria-label="former banker">
                     <img srcset="assets/images/finance-480w.jpg 480w,assets/images/finance-800w.jpg 800w" sizes="(max-width: 600px) 480px, 800px" src="assets/images/finance-800w.jpg" alt="Man with heads in hands staring at accounts">
                     <h4>Banker</h4>
                 </div>
             </div>
         </div>
-        <div>
-            <h2>Education</h2>
+        <div aria-labelledby="education-title">
+            <h2 id="education-title">Education</h2>
             <div class="grid">
-                <div>
+                <div id="code_institute" aria-label="currently in Code institute">
                     <img srcset="assets/images/code-institute-480w.jpg 480w,assets/images/code-institute-800w.jpg 800w" sizes="(max-width: 600px) 480px, 800px" src="assets/images/code-institute-800w.jpg" alt="CI student studing laptop surrounded by course topics">
                     <h4>Current - Code institute</h4> 
                 </div>
-                <div>
+                <div id="masters" aria-label="former Masters student">
                     <img srcset="assets/images/college-480w.jpg 480w,assets/images/college-800w.jpg 800w" sizes="(max-width: 600px) 480px, 800px" src="assets/images/college-800w.jpg" alt="College tudent hidden by books">
                     <h4>Past -  Masters</h4>
                 </div>
-                <div>
+                <div id="secondary" aria-label="fromer 2nd level school student">
                     <img srcset="assets/images/secondary-480w.jpg 480w,assets/images/secondary-800w.jpg 800w" sizes="(max-width: 600px) 480px, 800px" src="assets/images/secondary-800w.jpg" alt="Students holding a science project">
                     <h4>Past -  2nd level school</h4>
                 </div>
             </div>
         </div>
     </section>
-    <section id="skills">
+    <section id="skills"  aria-label="my skills">
         <!--Skills section is so user can see current skills and will look to add some style to show progress.
         This is intended so user can come back and keep an eye on progression in real time with updates-->
-        <div>
-            <h2>Skills</h2>
-            <ul class="skills">
-                <li>
+        <div aria-labelledby="skills">
+            <h2 id="skills-title">Skills</h2>
+            <ul class="skills" aria-labelledby="skills">
+                <li aria-label="html">
                     <i class="fa-brands fa-html5"></i>
                     <h4>HTML</h4>
                     <div class="skillprogress">
                         <span class="skillpercent">33%</span>
-                        <div class="skillbar"></div>
+                        <div class="skillbar" aria-label="skillbar" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </li>
-                <li>
+                <li aria-label="css">
                     <i class="fa-brands fa-css3-alt"></i>
                     <h4>CSS</h4>
                     <div class="skillprogress">
                         <span class="skillpercent">33%</span>
-                        <div class="skillbar"></div>
+                        <div class="skillbar" aria-label="skillbar" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </li>
-                <li>
+                <li aria-label="Github">
                     <i class="fa-brands fa-github"></i>
                     <h4>Github</h4>
                     <div class="skillprogress">
                         <span class="skillpercent">33%</span>
-                        <div class="skillbar"></div>
+                        <div class="skillbar" aria-label="skillbar" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </li>
             </ul>
         </div>
     </section>
-    <section id="projects">
-        <div id="love_running">
+    <section id="projects"  aria-label="projects">
+        <div id="love_running" aria-labelledby="projects-title">
             <h2>Projects</h2>
             <img    srcset="assets/images/loverunning-480w.webp 480w,assets/images/loverunning-800w.webp 800w" 
                     sizes="(max-width: 600px) 480px, 800px"
                     src="assets/images/loverunning-800w.webp" alt="picture of love running website">
-            <h4>Love running website</h4>
+            <h4 id="projects-title">Love running website</h4>
         </div>
     </section>
-    <footer>
+    <footer  aria-label="social links and copyright">
         <!--Footer links to social medias and copyright information. I have bug with email where it is not displaying correct 
             default informaiton. Need to test on smaller devices without email client-->
         <div>
@@ -183,7 +183,7 @@
             </div>
             
         </div>
-        <small class="copyright">Colm O'Sullivan 2022&copy;</small>
+        <small class="copyright" aria-label="copyright information">Colm O'Sullivan 2022&copy;</small>
     </footer>
     <script src="https://kit.fontawesome.com/35fe0ba271.js" crossorigin="anonymous"></script>
 </body>
