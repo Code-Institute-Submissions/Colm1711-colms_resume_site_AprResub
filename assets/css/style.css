@@ -323,9 +323,14 @@ footer {
   font-style: italic;
 }
 
+#contact_form {
+  padding-right: 15px;
+}
+
 #contact_form *{
   padding-left: 5px;
 }
+
 
 #contact_form input, textarea{
   margin-bottom: 5%;
@@ -346,10 +351,11 @@ width: auto;
 
 #form_button_pos div:nth-child(1){
   grid-column: 3/5;
+  
 }
 
 #form_button_pos div:nth-child(2){
-  grid-column: 5/7;
+  grid-column: 6/8;
 }
 
 #contact_form .formbutton{
@@ -407,6 +413,7 @@ width: auto;
     #love_running{
       padding-bottom: 25px;
     }
+    
 
 }
   @media (min-width: 768px) {
