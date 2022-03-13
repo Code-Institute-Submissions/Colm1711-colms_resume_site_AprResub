@@ -202,19 +202,23 @@ footer {
   .skillprogress {
   width: 60%;
   border: 1px solid var(--style);
+  border-radius: 7px;
   position: relative;
   display: inline-block;
+  background-color: var(--bg_color);
 }
  
  .skillpercent {
   position: absolute;   
   left: 50%;
+  color: var(--text);
  }
  
  .skillbar {
   height: 1.4em;
   background-color: green;
   width: 33%;
+  border-radius: 7px;
  }
 
 .grid img{
