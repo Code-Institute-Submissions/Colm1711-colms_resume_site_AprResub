@@ -182,6 +182,10 @@ This is the main website of Colm's resume website is for users to see details ab
 
   * Redesigned submit and reset buttons on contact form as they displayed incorrectly when moved into orientation mode on mobile.
 
+  * Increased font size for Heading 1 to make main purpose of site more prominent.
+
+  * Added contact form button to end of Projects section.
+
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
