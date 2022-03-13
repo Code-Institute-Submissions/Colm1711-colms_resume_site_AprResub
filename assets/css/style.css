@@ -124,6 +124,10 @@ footer {
   display: none;
 }
 
+.button-top p{
+  display: none;
+}
+
 .mynameis{
   color: #08a6e6;
 }
@@ -406,6 +410,10 @@ width: auto;
       grid-column: span 3;
     }
     
+    #resume .grid div img {
+      max-width: 100%;
+    }
+
     .skills{
       padding-top: 4%;
     }
@@ -414,7 +422,9 @@ width: auto;
       padding-bottom: 25px;
     }
     
-
+    #love_running img{
+      max-width: 100%;
+    }
 }
   @media (min-width: 768px) {
     /*CSS for medium to wide screens*/
