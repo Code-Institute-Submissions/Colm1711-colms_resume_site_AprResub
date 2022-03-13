@@ -130,7 +130,7 @@ footer {
 
 
 .social-icons li i:hover{
-    color:var(--style);
+    color:#08a6e6;
   }
 
 .button{
@@ -375,6 +375,7 @@ width: auto;
       position: unset;
       top: unset;
       right:unset;
+      font-size: 1em;
     }
 
    .about_button {
