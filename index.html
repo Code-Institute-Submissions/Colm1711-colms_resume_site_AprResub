@@ -14,8 +14,8 @@
 
 <body>
     <header id="home" class="grid"  aria-label="home navigation">
-        <!--Header section. Navigation links so user can easily navigate to each section of the site. Anchors to each section and links to 
-        homepage and contact form page-->
+        <!--Header section. Navigation links so user can easily navigate to each section of the site. 
+        Anchors to each section and links to homepage and contact form page-->
         <a class="logo" href="index.html">
             <h1 id="logo_line" aria-label="site_logo">Colm's Resum&eacute;</h1>
         </a>
@@ -43,6 +43,7 @@
         <!--About me section to give user intrpoduction and show list of passions. There are links to contact form page to make
             navigation options and links to download copy of CV.-->
         <div id="intro" aria-label="Picture of me anime style and intro about me">
+        <!--Video set to mute and autoplay is set to disabled by default. This is hero image give user interaction-->
         <video controls muted loop aria-label="profile picture of man with a beard enjoying music. This is muted, it will play on loop and video controls are dispalyed">
             <source src="assets/images/profile_v_small.mp4" type="video/mp4"> Your browser does not support this file type
         </video>
@@ -73,8 +74,8 @@
         </div>
     </section>
     <section id="resume">
-        <!--Resume section user can see current & past work experience and educaiton. Will display this with images.-->
-        
+        <!--Resume section user can see current & past work experience and educaiton. Will display this with images.
+            images are contained inside divs in grid.-->
         <div aria-labelledby="experience-title">
             <h2 id="experience-title">Experience</h2>
             <div class="grid">
@@ -112,7 +113,8 @@
     </section>
     <section id="skills"  aria-label="my skills">
         <!--Skills section is so user can see current skills and will look to add some style to show progress.
-        This is intended so user can come back and keep an eye on progression in real time with updates-->
+        This is intended so user can come back and keep an eye on progression in real time with updates.
+        This section is set to flex with font awesome icons contained in divs-->
         <div aria-labelledby="skills">
             <h2 id="skills-title">Skills</h2>
             <ul class="skills" aria-labelledby="skills">
@@ -144,6 +146,8 @@
         </div>
     </section>
     <section id="projects"  aria-label="projects">
+        <!--Projects section user can view work here. Will add links when sites are made live. Button at end so user can contact me
+        for future work. -->
         <div id="love_running" aria-labelledby="projects-title">
             <h2>Projects</h2>
             <img aria-labelledby="projects-title" src="assets/images/loverunning_small.jpg" srcset="assets/images/loverunning_medium.jpg 1000w, assets/images/loverunning.JPG 2000w" alt="picture of love running website">
@@ -186,6 +190,7 @@
         </div>
         <small class="copyright" aria-label="copyright information">Colm O'Sullivan 2022&copy;</small>
     </footer>
+    <!--Font awesome script-->
     <script src="https://kit.fontawesome.com/35fe0ba271.js" crossorigin="anonymous"></script>
 </body>
 </html>

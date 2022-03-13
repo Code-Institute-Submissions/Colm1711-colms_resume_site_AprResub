@@ -14,8 +14,6 @@
     padding: 0px;
     scroll-behavior: smooth;
     overflow-x: hidden;
-    max-height: 100%;
-    max-width: 100%;
 }
 
 li {
@@ -48,51 +46,60 @@ img{
 
 /*Constants*/
 
-/*body is using an image bg that was sourced from freepik.com color is set to primary
-I have updated back ground color for now. Not happy with shade of blue in image*/
+/*body is using an image bg that was sourced from freepik.com color is set to primary. 
+Body background is set to bg_color var
+Body color is set to primary var. 
+Font-family is google DM sans with fallback of Helvetica and sans-serif. 
+Height and width set here*/
 body{
   background-color: var(--bg_color);
   color: var(--primary);
   font-family: "DMSans", Helvetica, sans-serif;
+  max-height: 100%;
+  max-width: 100%;
 }
 
+/*set color for p, a , i fontawesome icons & h4 used as names for Experience & Education in Resume*/
 p,a,i,h4{
   color: var(--text);
 }
-
+/*Used to add UX design for user */
 a:hover{
   color:var(--border);
 }
-
+/*Add radius and border to video in about me. Width is set so it will adjust for tablet displays */
 video{
   border-radius: 2%;
   max-width: 67%;
   border: 2px var(--text) outset;
 }
-
+/*Styling for inputs and textarea for contact form */
 input, input[type="text"], textarea{
   background:rgba(255, 255, 255, 0.05);
   padding: 10px 16px;
   border-radius: 18px;
   border: 1px solid var(--border);
 }
-
+/*Heading one and Heading 3 set to same height for stlying
+Using em's so will adjust with body font-size in media screen with larger screens */
 h1,h3{
   font-size:1.2em;
 }
-
+/*Heading two set using em's so will adjust with body font-size in media screen with larger screens */
 h2{
   font-size:1.6em;
 }
-
+/*Heading four set using em's so will adjust with body font-size in media screen with larger screens */
 h4{
   font-size:1.1em;
 }
-
+/* any font awesome icon nested in a list Aboutme and Skills section 
+using em's so will adjust with body font-size in media screen set with larger screens*/
 li > i{
   font-size: 4em;
 }
-
+/* footer padding. Add for styling.
+Padding top and bottom set to 10px*/
 footer {
   padding: 10px 0;
 
@@ -101,19 +108,23 @@ footer {
 
 /*CLASSES*/
 
+/*grid class
+3 colulmns set to 1fr*/
 .grid{
   display: grid;
   grid-template-columns: repeat(3,1fr);
 }
 
+/*any imange nested in grid styling. Add border*/
 .grid img {
   border: 2px var(--text) outset;
 }
-
+/*menu set to visible for mobile devices*/
 .menu{
   visibility: hidden;
 }
-
+/*Contact me remains visible for UX design. Navigation
+positioned in top right.*/
 .menu #nav_contact_me{
   visibility: visible;
   display: block;
@@ -122,24 +133,25 @@ footer {
   right: 5px;
   font-size: 1.2em;
 }
-
+/*Hide top botton on mobile screens.*/
 .button-top {
   display: none;
 }
-
+/*Hide top botton text on screen.*/
 .button-top span{
   display: none;
 }
-
+/*Add blue color to Colm on about me for styling and UX.*/
 .mynameis{
   color: #08a6e6;
 }
 
-
+/*Add blue color to social icons on for styling and UX.
+used high specificty*/
 .social-icons li i:hover{
     color:#08a6e6;
   }
-
+/*Add styling to buttons*/
 .button{
   background: none;
   color: var(--style);
@@ -150,7 +162,7 @@ footer {
   display: inline-block;
   margin: 10px;
 }
-
+/*Add styling but no border. This is used on back to top button*/
 .button_noborder{
   background: none;
   color: var(--style);
@@ -159,44 +171,47 @@ footer {
   text-transform: uppercase;
   display: inline-block;
 }
-
+/*Add styling to buttons on contact form*/
 .button:hover{
   color: var(--primary);
   background: var(--secondary);
 }
-
+/*Styling for About me buttons. set to em's so will asjust with body font in media screen for larger screens*/
 .about_button{
   text-align: center;
   font-size: 0.7em;
 } 
-
+/*Add grid styling to skills. Grid 4 fractions to help with styling with padding at top of section*/
 .skills{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   text-align: center;
   padding-top: 10px;
 }
-
+/*Add styling by targeting nth child member 1 and add column and row to push to top left*/
 .skills li:nth-child(1){
   grid-column: 1/3;
   grid-row: 1;
 }
-
+/*Add styling by targeting nth child member 2 and add column and row to push to top right*/
 .skills li:nth-child(2){
   grid-column: 3/5;
   grid-row: 1;
   
 }
-
+/*Add styling by targeting nth child member 3 and add column and row to push under two other child*/
 .skills li:nth-child(3){
   grid-column: 2/4;
   grid-row: 2;
 }
-
+/*Styling for font awesome icons inside Skils section. I wanted these to be larger than other font awesome icons.
+Tageted with high specificty.
+set to em's so will asjust with body font for larger screens*/
 .skills li i{
   font-size: 7em;
 }
-
+/*Styling for heading four inside Skills section.
+Tageted with high specificty.*/
 .skills li h4{
   text-align: center;
 }
@@ -223,20 +238,20 @@ footer {
   width: 33%;
   border-radius: 7px;
  }
-
+/*Styling for images inside grid. set to em's so will asjust with body font in media screen for larger screens*/
 .grid img{
   height: 8em;
   width: 8em;
   display: inline-block;
   border-radius: 50%;
 }
-
+/*Styling for logo to position in to left of container*/
 .logo{
   grid-column: 1/3;
   color:var(--primary);
   padding-bottom: 2px;
 }
-
+/*Styling for passions container. Items aligned to center. Padding set for stlying*/
 .passions{
   text-align: center;
   padding: 10px 25px 10px 0;
@@ -245,7 +260,7 @@ footer {
 .passions li{
   font-size: 0.8em;
 }
-
+/*Positioning for about me button in ABout me section*/
 .about_me_button{
   display: flex;
   flex-direction: column;
@@ -253,18 +268,19 @@ footer {
   align-content: center;
   padding: 10px;
 }
-
+/*Footer*/
+/*social icons positioning*/
 .social-icons{
   padding: 10px;
   display: flex;
   justify-content: center;
 }
-
+/*Social icons fontsize. Using ems so will adjust with body set in media screen for larger screen*/
 .social-icons li{
   font-size: 1.7em;
   padding: 3%;
 }
-
+/*copyright styling*/
 .copyright{
   text-align: center;
   display: block;
@@ -273,54 +289,62 @@ footer {
 
 
 /*ID's*/
+
+/*Home*/
+/*Positing styling for Header section for styling*/
 #home{
   margin: 0 15px;
   padding: 0 0 10px 0;
 }
-
+/*Sets line under site logo. set to em's so will adjust with body in media screen for larger screens*/
 #logo_line{
   border-bottom: 2px solid var(--style);
   font-size: 2.8em;
 }
 
-
+/*About Me*/
+/*Intro in About Me section padding for stlying */
 #intro{
   margin: 15px;
 }
-
+/*Intro in About Me section font-size set to em's so will adjust with body in media screen for larger screens */
 #intro h3{
   font-size: 5em;
 }
 
+/*Resume*/
+/*Intro in Resume section padding for stlying */
 #resume{
   padding-bottom: 15px;
 }
-
+/*Resume heading padding for stlying*/
 #resume h2{
   padding: 15px 0;
 }
-
+/*Sets grid items to full width of grid of columns 1 to 4 to stack items in containor on top*/
 #resume .grid div{
   padding:5px;
   grid-column: 1/4;
   display: flex;
 }
-
+/*Styling to all items in grid. Using high specifity*/
 #resume .grid div *{
   max-width: 40%;
   align-self: center;
   margin: 0 10px;
 }
 
+/*Projects*/
+/*Padding to containor for stlying*/
 #love_running{
   padding-top: 10px;
   padding-bottom: 25px;
 }
-
+/*Padding for stlying*/
 #love_running h2{
   padding-bottom: 40px;
 }
-
+/*Stlying to image of projects in Projects section*/
 #love_running img{
   border: 2px solid var(--style);
   max-width: 90%;
@@ -329,32 +353,35 @@ footer {
   justify-content: center;
   padding: 3px;
 }
-
+/*Stlying to heading four*/
 #love_running h4{
   text-align: center;
   font-style: italic;
 }
 
+/*Contact Form*/
+/*Padding to containor for stlying*/
 #contact_form {
   padding-right: 15px;
 }
-
+/*Padding to all containor items for stlying*/
 #contact_form *{
   padding-left: 5px;
 }
 
-
+/*Stlying for inputs and textarea*/
 #contact_form input, textarea{
   margin-bottom: 5%;
   width:88%;
   color: white;
   font-size: 1em;
 }
-
+/*Styling for file input*/
 #contact_form .files{
 width: auto;
 }
 
+/*Grid position for button at end of form*/
 #form_button_pos{
   display: grid;
   grid-template-columns: repeat(8, 1fr);
@@ -380,26 +407,23 @@ width: auto;
 
 @media (min-width: 481px) {
     /*CSS for tablet width screens*/
+    /*Increase size of font for stlying as screen size increases*/
     body{
       font-size:20px;
     }
-
+    /*Classes*/
+    /*Home*/
+    /*Display menu for larger screens*/
     .menu{
       visibility: visible;
     }
-
+    /*Unsetting mobile styling for contact me link in menu*/
     .menu #nav_contact_me{
       display: unset;
       position: unset;
       top: unset;
       right:unset;
       font-size: 1em;
-    }
-
-   .about_button {
-      text-align: center;
-      font-size: 0.7em;
-      padding: 5px 0;
     }
 
     .menu{
@@ -409,11 +433,21 @@ width: auto;
       align-content: flex-end;
     }
 
+    /*About me*/
+    /*Stlying for larger screen */
+   .about_button {
+      text-align: center;
+      font-size: 0.7em;
+      padding: 5px 0;
+    }
+
     .passions {
       text-align: center;
       padding: 20px 10px;
     }
 
+    /*Resume*/
+    /*Adjusting items for larger screen*/
     #resume .grid div{
       grid-column: span 3;
     }
@@ -421,11 +455,15 @@ width: auto;
     #resume .grid div img {
       max-width: 100%;
     }
-
+    /*Skills*/
+    /*Add padding for larger screens*/
     .skills{
       padding-top: 4%;
     }
 
+    /*ID's*/
+    /*Love Running*/
+    /*Add padding for larger screens*/
     #love_running{
       padding-bottom: 25px;
     }
@@ -436,11 +474,33 @@ width: auto;
 }
   @media (min-width: 768px) {
     /*CSS for medium to wide screens*/
+    /*Increase size of font for stlying as screen size increases
+    Add margin for larger screens*/
     body{
       font-size: 25px;
       margin: 1% 5%;
     }
+
+    /*Classes*/
+    /*Skills*/
+    /*Adjusting em's for larger screens*/
+    .skills li i{
+      font-size: 9em;
+    }
+    /*Footer*/
+    /*make back to top button display on larger screen
+    Set to bottom right corner fixed*/
+    .button-top{
+      display: inline-block;
+      position: fixed;
+      bottom: 40px;
+      right: 18px;
+      font-size: 1.4em;
+    }
     
+    /*ID's*/
+    /*Resume*/
+    /*This grid is to turn resume into one containor with experience and education sided by side on screen*/
     #resume{
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -452,51 +512,38 @@ width: auto;
       flex-direction: column;
       padding-top: 5%;
   }
-
+    /*target items inside grid containor*/
     #resume .grid div * {
       max-width: 50%;
       margin: 0 10px;
       padding: 0.4%;
   }
- 
-
-    .skills li i{
-      font-size: 9em;
-    }
-
-    .button-top{
-      display: inline-block;
-      position: fixed;
-      bottom: 40px;
-      right: 18px;
-      font-size: 1.4em;
-    }
     	
     #projects{
       padding-top:5%;
       }
 
+    /*Contact form*/
+    /*Styling for larger screen*/
+    #contact_form{
+      margin: 10px;
+    }
 
-  #contact_form{
-    margin: 10px;
-  }
+    input, input[type="text"], textarea {
+      padding: 15px 30px;
+      margin-top: 5px;
+      margin-left: 5px;
+    }
 
-  input, input[type="text"], textarea {
-    padding: 15px 30px;
-    margin-top: 5px;
-    margin-left: 5px;
-    color: var(--primary);
+    textarea{
+      box-sizing: border-box;
+      width: 60%;
+    }
+    
+    #contact_form .formbutton {
+      width: auto;
+      padding: 7px;
   }
-
-  textarea{
-    box-sizing: border-box;
-    width: 60%;
-  }
-  
-  #contact_form .formbutton {
-    width: auto;
-    padding: 7px;
-}
 
   @media (min-width: 992px) {
     /*CSS for wide screens*/
@@ -506,11 +553,15 @@ width: auto;
         padding-left: 5%;
         padding-right: 5%;
       }
-
+      /*Classes*/
+      /*About me*/
+      /*Stlying for larger screens*/
       .passions {
         padding: 40px 10px;
       }
-
+      /*ID's*/
+      /*Resume*/
+      /*Stlying for larger screens - https://developer.mozilla.org/en-US/docs/Web/CSS/white-space*/
       #resume .grid div{
       white-space: nowrap
       }
@@ -521,7 +572,9 @@ width: auto;
     body {
         font-size: 42px;
     }
-
+    /*ID's*/
+    /*Contact form*/
+    /*Stlying for larger screens*/
     #contact_form {
       margin: 11px;
   }
