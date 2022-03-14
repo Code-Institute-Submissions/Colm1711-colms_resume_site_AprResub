@@ -105,7 +105,6 @@ footer {
 
 }
 
-
 /*CLASSES*/
 
 /*grid class
@@ -141,10 +140,20 @@ positioned in top right.*/
 .button-top span{
   display: none;
 }
-/*Add blue color to Colm on about me for styling and UX.*/
+/*Add blue color to Colm on about me for styling and UX.
+Also adding re-sizing of text. Sourced from Love running project walkthrough*/
 .mynameis{
-  color: #08a6e6;
-}
+    color: #08a6e6;
+    animation-name: intro_text;
+    animation-duration: 4s;
+  }
+  
+  @keyframes intro_text {
+    from {font-size: 1.5em; color:var(--primary);}
+    to {color: var(#08a6e6);}
+  }
+
+
 
 /*Add blue color to social icons on for styling and UX.
 used high specificty*/
