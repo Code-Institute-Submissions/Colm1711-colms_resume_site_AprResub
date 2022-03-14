@@ -32,8 +32,7 @@ This is the main website of Colm's resume website is for users to see details ab
     -   #### Colour Scheme
         -   was choosen from [colorpyschology.org](https://www.colorpsychology.org/shades-of-blue/) and validated [here](https://color.a11y.com/Contrast/)
 
-        -   color was choosen for these reasons:<br>
-                ![navigation](/assets/images/color.JPG)
+        -   color was choosen for these reasons that is pormotes dependable and consistent emotions.
 
     -   #### Typography
         -   was sourced from [Google fonts](https://fonts.google.com/)
