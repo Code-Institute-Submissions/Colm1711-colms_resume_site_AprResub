@@ -280,7 +280,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 -   All content was written by the developer.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+-   Psychological properties of colours text [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
 -   Photos: Software Testing, Bartender and Banker for Experience. Secondary and College All were sourced from [here](https://www.pexels.com/) 
 
