@@ -150,7 +150,7 @@ Also adding re-sizing of text. Sourced from Love running project walkthrough*/
   
   @keyframes intro_text {
     from {font-size: 1.5em; color:var(--primary);}
-    to {color: var(#08a6e6);}
+    to {color:#08a6e6}
   }
 
 
