@@ -297,6 +297,8 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 -   Picture compression was performed [here](https://tinypng.com/)
 
+-   Heading four used for user experience for titles of images and icons    [here](https://medium.com/swlh/html-heading-tags-best-practices-78a85f63df47)
+
 ### Media
 
 -   All Images were sourced from pexels with the video sourced from pinterest and are of free source.
