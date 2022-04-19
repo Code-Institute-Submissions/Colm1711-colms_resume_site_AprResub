@@ -205,6 +205,7 @@ This is the main website of Colm's resume website is for users to see details ab
 
 - contact form buttons were displaying incorrectly in orientation mode. Changed to grid display and placed buttons into columns.
 
+- nav menu shrinked on larger screens. Removed css and added styling so displays on all device screens. Add back to top button to make navigation easier for user.
 
 ### Known Bugs
 
