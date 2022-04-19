@@ -118,24 +118,25 @@ footer {
 .grid img {
   border: 2px var(--text) outset;
 }
-/*menu set to visible for mobile devices*/
+
+/* HOME */
 .menu{
-  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  padding-top: 10px;
 }
-/*Contact me remains visible for UX design. Navigation
-positioned in top right.*/
-.menu #nav_contact_me{
-  visibility: visible;
-  display: block;
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  font-size: 1.2em;
-}
-/*Hide top botton on mobile screens.*/
-.button-top {
-  display: none;
-}
+
+/*Set to bottom right corner fixed*/
+.button-top{
+  display: inline-block;
+  position: fixed;
+  bottom: 40px;
+  right: 18px;
+  font-size: 1.4em;
+    }
+    
 /*Hide top botton text on screen.*/
 .button-top span{
   display: none;
@@ -143,14 +144,14 @@ positioned in top right.*/
 /*Add blue color to Colm on about me for styling and UX.
 Also adding re-sizing of text. Sourced from Love running project walkthrough*/
 .mynameis{
-    color: #08a6e6;
-    animation-name: intro_text;
-    animation-duration: 4s;
+  color: #08a6e6;
+  animation-name: intro_text;
+  animation-duration: 4s;
   }
   
-  @keyframes intro_text {
-    from {font-size: 1.5em; color:var(--primary);}
-    to {color:#08a6e6}
+@keyframes intro_text {
+  from {font-size: 1.5em; color:var(--primary);}
+  to {color:#08a6e6}
   }
 
 
@@ -227,7 +228,7 @@ Tageted with high specificty.*/
 }
 
 /*skill progress bar css styling on resume page*/
-  .skillprogress {
+.skillprogress {
   width: 60%;
   border: 1px solid var(--style);
   border-radius: 7px;
@@ -236,13 +237,13 @@ Tageted with high specificty.*/
   background-color: var(--bg_color);
 }
  
- .skillpercent {
+.skillpercent {
   position: absolute;   
   left: 50%;
   color: var(--text);
  }
  
- .skillbar {
+.skillbar {
   height: 1.4em;
   background-color: green;
   width: 33%;
@@ -422,27 +423,6 @@ width: auto;
       font-size:20px;
     }
     /*Classes*/
-    /*Home*/
-    /*Display menu for larger screens*/
-    .menu{
-      visibility: visible;
-    }
-    /*Unsetting mobile styling for contact me link in menu*/
-    .menu #nav_contact_me{
-      display: unset;
-      position: unset;
-      top: unset;
-      right:unset;
-      font-size: 1em;
-    }
-
-    .menu{
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      align-content: flex-end;
-    }
-
     /*About me*/
     /*Stlying for larger screen */
    .about_button {
@@ -498,15 +478,6 @@ width: auto;
       font-size: 9em;
     }
     /*Footer*/
-    /*make back to top button display on larger screen
-    Set to bottom right corner fixed*/
-    .button-top{
-      display: inline-block;
-      position: fixed;
-      bottom: 40px;
-      right: 18px;
-      font-size: 1.4em;
-    }
     
     /*ID's*/
     /*Resume*/
